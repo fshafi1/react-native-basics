@@ -15,13 +15,15 @@ export default function CircleButton({onPress}) {
 
 const styles = StyleSheet.create({
     circleButtonContainer: {
-      width: 84,
-      height: 84,
+      width: 50,
+      height: 50,
       marginHorizontal: 60,
       borderWidth: 4,
       borderColor: '#ffd33d',
       borderRadius: 42,
       padding: 3,
+
+    
     },
     circleButton: {
       flex: 1,

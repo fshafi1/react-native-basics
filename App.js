@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import CircleButton from './components/CircleButton';
 import IconButton from './components/IconButton';
+import EmojiPicker from './components/EmojiPicker';
 
 import ImageViewer from './components/ImageViewer';
 import Button from './components/Button';
@@ -47,6 +48,8 @@ export default function App() {
       <View style={styles.imageContainer}>
         <ImageViewer placeholderImageSource={PlaceholderImage} selectedImage={selectImage}/>
       </View>
+
+      <EmojiPicker/>
       { showAppOptions ? (
          <View style={styles.optionsContainer}>
             <View style={styles.optionsRow}>
